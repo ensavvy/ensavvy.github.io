@@ -107,3 +107,5 @@ ring-purple-50 ring-purple-100 ring-purple-200 ring-purple-300 ring-purple-400 r
 ring-fuchsia-50 ring-fuchsia-100 ring-fuchsia-200 ring-fuchsia-300 ring-fuchsia-400 ring-fuchsia-500 ring-fuchsia-600 ring-fuchsia-700 ring-fuchsia-800 ring-fuchsia-900
 ring-pink-50 ring-pink-100 ring-pink-200 ring-pink-300 ring-pink-400 ring-pink-500 ring-pink-600 ring-pink-700 ring-pink-800 ring-pink-900
 ring-rose-50 ring-rose-100 ring-rose-200 ring-rose-300 ring-rose-400 ring-rose-500 ring-rose-600 ring-rose-700 ring-rose-800 ring-rose-900
+
+navbar__brand navbar__logo navbar__title

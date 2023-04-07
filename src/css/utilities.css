@@ -23,4 +23,16 @@
   .navbar {
     @apply sticky;
   }
+
+  .navbar__brand {
+    @apply font-brand text-4xl text-orange-600;
+  }
+
+  .navbar__logo img {
+    @apply align-top;
+  }
+
+  .navbar__title {
+    @apply relative -top-[2px];
+  }
 }
