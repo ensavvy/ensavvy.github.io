@@ -2,6 +2,7 @@ module.exports = {
   content: [
     "./docs/**/*.{js,jsx,ts,tsx,md,mdx}",
     "./src/**/*.{js,jsx,ts,tsx,md,mdx}",
+    "./node_modules/tw-elements/dist/js/**/*.js",
     "./tailwind.safelist.txt"
   ],
   darkMode: ['class', '[data-theme="dark"]'], // hooks into docusaurus' dark mode settings
@@ -20,5 +21,7 @@ module.exports = {
     // preflight: false, // disable Tailwind's reset
     visibility: false,
   },
-  plugins: [],
+  plugins: [
+    require("tw-elements/dist/plugin"),
+  ],
 };

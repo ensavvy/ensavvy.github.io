@@ -8,7 +8,8 @@ const remarkAttr = require('remark-attr');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'ensavvy',
-  tagline: 'Dinosaurs are cool',
+  staticDirectories: ['public', 'static'],
+  tagline: 'We are a software development team.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -74,7 +75,7 @@ const config = {
           customCss: [
             require.resolve('./src/css/custom.css'),
             require.resolve('swiper/css/bundle'),
-          ]
+          ],
         },
       }),
     ],
