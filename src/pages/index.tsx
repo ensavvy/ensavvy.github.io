@@ -34,8 +34,8 @@ export default function Home(): JSX.Element {
       description="Description will go into a meta tag in <head />"
     >
       <main id="Welcome">
-        <section id="WelcomeJumbotron" className="relative">
-          <div className="container max-w-screen-xl mx-auto px-6 py-20 relative z-1">
+        <section id="WelcomeJumbotron" className="relative mt-12 mb-6">
+          <div className="container max-w-screen-xl mx-auto px-6 relative z-1">
             <div className="flex flex-wrap -mx-6 justify-center">
               <div className="w-full lg:w-6/12 px-6">
 
@@ -258,9 +258,12 @@ export default function Home(): JSX.Element {
           </div>
         </section>
 
-        <header className="patterns-hero-bank-note py-8 lg:py-16 text-center relative overflow-hidden dark:bg-gray-800">
+        <section className="mt-6 mb-16">
+          <HomepageFeatures />
+        </section>
+
+        <header className="patterns-hero-bank-note py-8 lg:py-16 text-center relative overflow-hidden dark:bg-gray-800 hidden">
           <div className="container">
-            <h1 className="text-7xl font-brand font-bold mb-4 text-orange-600">{siteConfig.title}</h1>
             <div className={styles.buttons}>
               <Link
                 className="button button--secondary button--lg"
@@ -268,11 +271,8 @@ export default function Home(): JSX.Element {
                 Docusaurus Tutorial - 5min ⏱️
               </Link>
             </div>
-            <div className="mt-4">Currently <strong>v{PKG.version}</strong></div>
           </div>
         </header>
-
-        <HomepageFeatures />
       </main>
     </Layout>
   );
